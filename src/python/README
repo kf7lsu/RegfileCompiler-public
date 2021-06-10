@@ -1,0 +1,10 @@
+To adapt this tool to a process node, a few things need to happen in this
+folder.
+
+1. Modify cell_map.py to have the correct cell names for your process node
+
+2. Adjust the gate sizing algorithms in size_buffers_latches.py. The values for upsizing gates depend on the process node and the number of entries in the register file.
+
+3. Modify customPlacement.py to have the standard cell heights be the heights used in your library.
+
+4. Edit the parseModule.py algorithms to parse correctly using the correct cell names used in your design.

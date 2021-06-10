@@ -1,0 +1,13 @@
+This tool is used to generate register files of varying sizes.
+
+The src folder contains the tcl, verilog, and python source files used to
+generate the register files. Additonally, that is where the makefile is
+located. A few of the scripts in src require modification to adapt to a new
+process node. The README files in each level clarify which files need
+modification.
+
+The run folder is where the tool is run, all the intermediate files are
+generated there and the result is found there as well.
+
+NOTE: This tool heavily uses symbolic links and has only been tested on CentOS
+      7.9.2009

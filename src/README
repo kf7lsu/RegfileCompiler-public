@@ -1,0 +1,12 @@
+Makefile: the makefile used to generate the register file in the run directory,
+          runs the toplevel generation python script and the APR flow
+
+apr/: contains the necessary APR TCL scripts, some scripts require modification
+      for each new process flow.
+
+python/: contains some scripts for netlist generation and TCL script generation,
+         a few of the scripts require some minor modifications to work with each
+         new process node
+
+testbench/: contains a few verilog testbenches to verify the functionality of a
+            few sizes of register file

@@ -1,0 +1,17 @@
+To adapt this tool to your process node, a few adaptations need to occur in this
+directory. Files have been altered to be scrubbed of proprietary information.
+
+If you have an ICC licence, place your report_drc.tcl file in this directory.
+That script is not open source and cannot be included here.
+
+power.tcl needs some metal routing information, power ring info, and vss offset.
+
+phys_vars.tcl requires information specific to your process node
+
+clocks.tcl requires metal routing information
+
+customPlacement.py will require a specified standard cell height
+
+floorplan.tcl also requires a specified standard cell height
+
+config.tcl and setup_node.tcl require linking to standard cell library files
